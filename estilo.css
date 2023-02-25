@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkred;
+}
+
+div#interface {
+    width: 900px;
+    background-color: gray;
+    margin: -20px auto -20px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px
+}
+
+div#interface a h1 {
+    color: black;
+    text-decoration: underline
+}
+
+nav#menuprincipal ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+nav#menuprincipal li {
+    display: inline-block;
+    background-color: green;
+    padding: 30px;
+    margin: 40px;
+}
+
+nav#menuprincipal li:hover {
+    background-color: #606060;
+}
+
+nav#menuprincipal h1 {
+    display: none;
+}
+
+nav#menuprincipal a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menuprincipal a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+figure#foto img{
+    position: relative;
+    border: 8px solid darkred;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure#foto img{
+    width: 100%;
+    height: 100%;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 55pt;
+    color: red;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -2px;
+}
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 20pt;
+    margin-top: 0px;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 15pt;
+}
+
+nav#menu_criticas {
+    display: block;
+}
+
+nav#menu_criticas ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: 330px;
+}
+
+nav#menu_criticas li {
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu_criticas h1 {
+    display: none;
+}
+
+nav#menu_criticas a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu_criticas a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav#menu_textos {
+    display: block;
+}
+
+nav#menu_textos ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: 315px;
+}
+
+nav#menu_textos li {
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav#menu_textos h1 {
+    display: none;
+}
+
+nav#menu_textos a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu_textos a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+video#video {
+    position: relative;
+    border: 8px solid darkred;
+    box-shadow: 1px 1px 4px black;
+}
+
+video#video {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: block;
+}
